@@ -1,29 +1,41 @@
-# 🚀 🌐 Personal Website & Portfolio
+# 🌐 Personal Website & Portfolio
 
-Ini adalah repositori untuk website pribadi saya yang di-host menggunakan **GitHub Pages**. Website ini dibuat untuk [tujuan website, contoh: menampilkan portofolio, membagikan artikel blog, atau proyek latihan coding].
+Welcome to my personal website repository! This website serves as my digital portfolio, where I showcase my career journey, the projects I have built, and the skills I possess.
 
-🌐 **Live Demo:** [Masukkan Link Website GitHub Pages Kamu di Sini, contoh: https://username.github.io/nama-repo]
-
----
-
-## ✨ Fitur Utama
-* **Responsive Design:** Tampilan optimal di berbagai perangkat (HP, Tablet, dan Laptop).
-* **Modern UI:** Desain minimalis dan bersih.
-* **[Fitur Lain]:** [Contoh: Formulir kontak yang berfungsi / Mode Gelap (Dark Mode)].
-
-## 🛠️ Teknologi yang Digunakan
-* **HTML5** – Struktur konten website.
-* **CSS3** – Styling dan tata letak (Layouting).
-* **JavaScript** – Interaktivitas (jika ada).
-* *[Opsional: Bootstrap / Tailwind CSS / React jika kamu menggunakannya]*
+✨ **Live Demo:** [https://username.github.io/repository-name](https://username.github.io/TonyKeys)
 
 ---
 
-## 📂 Struktur Folder
+## 🚀 Features
+* **About Me:** A brief overview of my background, interests, and career focus.
+* **Project Showcase:** A curated gallery of my past and ongoing projects with live links.
+* **Skills Inventory:** A visual display of my current tech stack and tools.
+* **Contact Form:** An easy way for visitors, clients, or recruiters to get in touch with me.
+
+## 🛠️ Tech Stack
+This website is built using the following technologies:
+* **HTML5 & CSS3** – For semantic structure and clean visual styling.
+* **JavaScript (ES6)** – For smooth animations and UI interactivity.
+
+---
+
+## 📂 Repository Structure
 ```text
-├── index.html          # Halaman utama website
+├── index.html          # Main landing page of the website
 ├── css/
-│   └── style.css       # File untuk styling
+│   └── style.css       # Layout styles and custom themes
 ├── js/
-│   └── script.js      # File untuk logika JavaScript (jika ada)
-└── assets/            # Folder untuk gambar, ikon, dll.
+│   └── main.js         # Interactive logic and animations
+└── assets/            # Directory for profile pictures, project screenshots, and icons
+```
+---
+
+## 📬 Contact Me
+
+I am always open to collaboration, project discussions, or just networking! Feel free to reach out through any of the channels below:
+
+* **Email:** [muhammadsultonfatony@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=muhammadsultonfatony@gmail.com&su=Hello+Tony)
+* **Instagram:** [@tonyy.k__](https://instagram.com/tonyy.k__)
+
+---
+Built with 💻 and ☕ by [Your Name].
