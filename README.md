@@ -22,9 +22,9 @@ This website is built using the following technologies:
 ## 📂 Repository Structure
 ```text
 ├── index.html          # Main landing page of the website
-├── css/
+├── Style/
 │   └── style.css       # Layout styles and custom themes
-├── js/
+├── JS/
 │   └── main.js         # Interactive logic and animations
 └── assets/            # Directory for profile pictures, project screenshots, and icons
 ```
@@ -36,6 +36,7 @@ I am always open to collaboration, project discussions, or just networking! Feel
 
 * **Email:** [muhammadsultonfatony@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=muhammadsultonfatony@gmail.com&su=Hello+Tony)
 * **Instagram:** [@tonyy.k__](https://instagram.com/tonyy.k__)
+* **LinkedIn:**[Muhammad Sulton Fatony](https://www.linkedin.com/in/muhammad-sulton-fatony-aab367296/)
 
 ---
 Built with 💻 and ☕ by TonyKeys.
