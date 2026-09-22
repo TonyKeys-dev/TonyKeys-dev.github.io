@@ -13,21 +13,9 @@ document.querySelectorAll('.nav-links a').forEach(link => {
   });
 });
 
-const skillFills = document.querySelectorAll('.skill-fill');
-const skillObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const el = entry.target;
-      el.style.transition = 'width 1.2s cubic-bezier(0.4, 0, 0.2, 1)';
-      el.style.width = el.dataset.width;
-      skillObserver.unobserve(el);
-    }
-  });
-}, { threshold: 0.4 });
-skillFills.forEach(el => skillObserver.observe(el));
-
 const sections = document.querySelectorAll('section[id]');
 const navAnchors = document.querySelectorAll('.nav-links a');
+
 const navObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -37,18 +25,21 @@ const navObserver = new IntersectionObserver((entries) => {
     }
   });
 }, { rootMargin: '-40% 0px -55% 0px' });
+
 sections.forEach(sec => navObserver.observe(sec));
 
-const fadeEls = document.querySelectorAll('.skill-card, .project-item, .stat-item, .about-photo-wrap');
+const fadeEls = document.querySelectorAll('.tech-card, .project-item, .stat-item, .about-photo-wrap, .hero-text');
+
 const fadeObserver = new IntersectionObserver((entries) => {
   entries.forEach((entry, i) => {
     if (entry.isIntersecting) {
-      entry.target.style.animationDelay = (i * 0.07) + 's';
+      entry.target.style.animationDelay = (i * 0.05) + 's';
       entry.target.classList.add('fade-in-up');
       fadeObserver.unobserve(entry.target);
     }
   });
 }, { threshold: 0.1 });
+
 fadeEls.forEach(el => fadeObserver.observe(el));
 
 navAnchors.forEach(link => {
@@ -61,6 +52,7 @@ navAnchors.forEach(link => {
 
 let lastScroll = 0;
 const nav = document.querySelector('nav');
+
 window.addEventListener('scroll', () => {
   const current = window.scrollY;
   if (current > lastScroll && current > 80) {
